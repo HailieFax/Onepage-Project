@@ -17,7 +17,7 @@ body {
     font-size: 1em;
     color: blue;
     text-align: center;
-    border-color: #000;
+    border-color: white;
     border-width: 2px;
     border-style: solid;
 }
@@ -31,3 +31,20 @@ body {
     ""
 
     }
+
+#B1 {
+    grid-area: a;
+}
+
+#logo {
+
+    grid-area: b;
+}
+
+#portrait {
+    grid-area: c;
+}
+
+#dyr {
+    grid-area: d;
+}
