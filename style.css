@@ -41,10 +41,25 @@ body {
     grid-area: b;
 }
 
-#portrait {
+#logotekst {
+
     grid-area: c;
 }
 
-#dyr {
+#portrait {
     grid-area: d;
+}
+
+#portraittekst {
+    grid-area: ;e
+}
+
+#dyr {
+    
+    grid-area: f;
+}
+
+#dyrtekst {
+
+    grid-area: g;
 }
