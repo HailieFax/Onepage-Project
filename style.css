@@ -12,3 +12,22 @@ body {
     background-color: black;
     margin: 1em;
 }
+
+#mitgrid div {
+    font-size: 1em;
+    color: blue;
+    text-align: center;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#mitgrid { 
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 0.5fr); 
+    grid-template-areas:  
+    ""
+
+    }
