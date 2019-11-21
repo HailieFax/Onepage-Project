@@ -39,6 +39,7 @@ body {
     grid-template-areas:  
     "a a b b"
     "d e e e"
+    "c c c c"
     "f f g g"
     "h i i i"
 
