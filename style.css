@@ -44,39 +44,52 @@ body {
 
     }
 
-#B1 {
-    grid-area: a;
+#h2 {
+    grid-area: ;
 }
 
-#h2 {
+#tekst1 {
 
-    grid-area: b;
+    grid-area: ;
 }
 
 #reklame2 {
-    grid-area: c;
+
+    grid-area: ;
 }
 
+#tekst2 {
+
+    grid-area: ;
+}
+
+
 #logo {
-    grid-area: d;
+
+    grid-area: ;
 }
 
 #logotekst {
-    grid-area: e;
+
+    grid-area: ;
 }
 
 #portrait {
-    grid-area: f;
+
+    grid-area: ;
 }
 
 #portraittekst {
-    grid-area: g;
+
+    grid-area: ;
 }
 
 #dyr {
-    grid-area: h;
+
+    grid-area: ;
 }
 
 #dyrtekst {
-    grid-area: i;
+
+    grid-area: ;
 }
