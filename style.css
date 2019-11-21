@@ -1,16 +1,19 @@
-@media screen and (min-width: 700px) /* Tablet */
-@media screen and (min-width: 480px) /* Mobil */
+@media screen and (min-width: 700px) { }/* Tablet */
+@media screen and (min-width: 480px){ } /* Mobil */
 
 /* Ovenstående klar til at kopiere i den del der skal ændres for at det hele passer sammen */
 
 
 h1 {
+
     font-family: almaq rough;
     color: blue;
     font-size: 6em;
     text-align: center;
-    
+
 }
+    
+
 
 body {
     font-family: anton;
@@ -39,38 +42,38 @@ body {
     }
 
 #B1 {
-    grid-area: ;
+    grid-area: a;
 }
 
 #h2 {
 
-    grid-area: ;
+    grid-area: b;
 }
 
 #reklame2 {
-    grid-area: ;
+    grid-area: c;
 }
 
 #logo {
-    grid-area: ;
+    grid-area: d;
 }
 
 #logotekst {
-    grid-area: ;
+    grid-area: e;
 }
 
 #portrait {
-    grid-area: ;
+    grid-area: f;
 }
 
 #portraittekst {
-    grid-area: ;
+    grid-area: g;
 }
 
 #dyr {
-    grid-area: ;
+    grid-area: h;
 }
 
 #dyrtekst {
-    grid-area: ;
+    grid-area: i;
 }
