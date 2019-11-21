@@ -1,3 +1,9 @@
+@media screen and (min-width: 700px) /* Tablet */
+@media screen and (min-width: 480px) /* Mobil */
+
+/* Ovenstående klar til at kopiere i den del der skal ændres for at det hele passer sammen */
+
+
 h1 {
     font-family: almaq rough;
     color: blue;
@@ -25,26 +31,46 @@ body {
 #mitgrid { 
     
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 0.5fr); 
+    grid-template-columns: ;
+    grid-template-rows: ; 
     grid-template-areas:  
     ""
 
     }
 
 #B1 {
-    grid-area: a;
+    grid-area: ;
+}
+
+#h2 {
+
+    grid-area: ;
+}
+
+#reklame2 {
+    grid-area: ;
 }
 
 #logo {
+    grid-area: ;
+}
 
-    grid-area: b;
+#logotekst {
+    grid-area: ;
 }
 
 #portrait {
-    grid-area: c;
+    grid-area: ;
+}
+
+#portraittekst {
+    grid-area: ;
 }
 
 #dyr {
-    grid-area: d;
+    grid-area: ;
+}
+
+#dyrtekst {
+    grid-area: ;
 }
