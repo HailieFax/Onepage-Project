@@ -1,0 +1,91 @@
+<<<<<<< Updated upstream
+=======
+@media screen and (min-width: 700px) { }/* Tablet */
+@media screen and (min-width: 480px){ } /* Mobil */
+
+/* Ovenstående klar til at kopiere i den del der skal ændres for at det hele passer sammen */
+
+
+h1 {
+
+    font-family: almaq rough;
+    color: blue;
+    font-size: 6em;
+    text-align: center;
+
+}
+    
+
+
+body {
+    font-family: anton;
+    color: blue;
+    background-color: black;
+    margin: 1em;
+}
+
+#mitgrid div {
+    font-size: 1em;
+    color: blue;
+    text-align: center;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#mitgrid { 
+    
+    display: grid;
+    grid-template-columns: 4, 1fr;
+    grid-template-rows: 2, 1fr ; 
+    grid-template-areas:  
+    "a a a a a a"
+    "b b b b b b"
+    "c c c c c c"
+    "d d d d d d"
+    "e e f f"
+    "g g h h"
+    "j j i i";
+
+    }
+
+#B1 h2 {
+    grid-area: a;
+}
+
+#B1 h2 p {
+    grid-area: b;
+}
+
+#B1 img {
+    grid-area: c;
+}
+
+#B1 img p {
+    grid-area: d;
+}
+
+#logo ul{
+    grid-area: e;
+}
+
+#logotekst {
+    grid-area: f;
+}
+
+#portrait img{
+    grid-area: g;
+}
+
+#portrait p{
+    grid-area: h;
+}
+
+#dyr img{
+    grid-area: i;
+}
+
+#dyr p{
+    grid-area: j;
+}
+>>>>>>> Stashed changes
