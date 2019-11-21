@@ -22,6 +22,8 @@ body {
     margin: 1em;
 }
 
+/* Grid delen her er kun lige kopieret fra et andet dokument */
+
 #mitgrid div {
     font-size: 1em;
     color: blue;
@@ -34,14 +36,11 @@ body {
 #mitgrid { 
     
     display: grid;
-    grid-template-columns: 4, 1fr;
-    grid-template-rows: 2, 1fr ; 
+    grid-template-columns: ;
+    grid-template-rows: ; 
     grid-template-areas:  
-    "a a b b"
-    "d e e e"
-    "c c c c"
-    "f f g g"
-    "h i i i"
+    ""
+  
 
     }
 
