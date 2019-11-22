@@ -1,8 +1,17 @@
-@media screen and (min-width: 700px) { }/* Tablet */
-@media screen and (min-width: 480px){ } /* Mobil */
-
-/* Ovenstående klar til at kopiere i den del der skal ændres for at det hele passer sammen */
-
+ 
+  @media screen and (max-width: 700px) { 
+    .text{
+        font-size: 27px;
+    }
+ 
+}/* Tablet */
+ 
+  @media screen and (max-width: 500px){
+ 
+    .text{
+        font-size: 17px;
+    } 
+} /* Mobil */
 
 h1 {
 
@@ -59,87 +68,57 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
- 
-  @media screen and (max-width: 700px) { 
-    .text{
-        font-size: 27px;
-    }
- 
-}/* Tablet */
- 
-  @media screen and (max-width: 500px){
- 
-    .text{
-        font-size: 17px;
-    } 
-} /* Mobil */
+
+ul {
+    list-style: none;
+}
 
 
-#mitgrid div {
-    font-size: 1em;
-    color: blue;
-    text-align: center;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
-    
 #mitgrid { 
     
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ; 
-    grid-template-areas:  
-    ""
-  
-
+    grid-column: 2, 1fr;
+    grid-row: 4, 1fr;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d e"
+    "g f";
+    
+    
     }
-
-#h2 {
-    grid-area: ;
-}
 
 #tekst1 {
 
-    grid-area: ;
+    grid-area: a;
 }
-
-#reklame2 {
-
-    grid-area: ;
-}
-
-#tekst2 {
-
-    grid-area: ;
-}
-
 
 #logo {
 
-    grid-area: ;
+    grid-area:b;
 }
 
 #logotekst {
 
-    grid-area: ;
+    grid-area: c;
 }
 
 #portrait {
 
-    grid-area: ;
+    grid-area: d ;
 }
 
 #portraittekst {
 
-    grid-area: ;
+    grid-area: e;
 }
 
 #dyr {
 
-    grid-area: ;
+    grid-area: f;
 }
 
 #dyrtekst {
 
-    grid-area: ;
+    grid-area: g;
 }
