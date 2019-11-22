@@ -58,7 +58,7 @@ body {
   
   .text {
     color: rgb(19, 8, 121);
-    font-family: almaq rough;
+    font-family: Almaq Rough;
     font-size: 57px;
     position: absolute;
     top: 50%;
@@ -77,8 +77,8 @@ ul {
 #mitgrid { 
     
     display: grid;
-    grid-column: 2, 1fr;
-    grid-row: 4, 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* grid-row: 4, 1fr; */
     grid-template-areas: 
     "a a"
     "b c"
