@@ -4,15 +4,16 @@ h1 {
   font-family: almaq rough;
   color: blue;
   size: 4em;
-  text-align: center;
   margin-top: 0;
+  margin-left: 90px;
 }
+
 
 #hgrid {
   display: grid;
-  grid-template-rows: 4fr;
+  grid-template-rows: 2fr;
   grid-template-areas: 
-  "h1 h1 h1 logo";
+  "h1 logo";
 
 #h1 { 
 
@@ -23,6 +24,7 @@ h1 {
 #logo {
 
   grid-area: logo;
+
 }
 
 }
