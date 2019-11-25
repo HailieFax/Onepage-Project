@@ -1,71 +1,180 @@
 
-@media screen and (min-width: 700px) /* Til tablet */
-@media screen and (min-width: 480px) /* til mobile */
-
-/* Skal have fundet de forskellige skaleringer der passer til hhv tablet/mobile  */
-
-body {
-    font-family: anton;
-    color: blue;
-    background-color: black;
-    margin: 1em;
-}
-
 h1 {
-    font-family: almaq rough;
-    color: blue;
-    font-size: 6em;
-    text-align: center;
-    
-}
 
-#mitgrid div {
-    font-size: 1em;
-    color: blue;
-    text-align: center;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
-}
-
-#mitgrid { 
-    
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 0.5fr); 
-    grid-template-areas:  
-    ""
-
-    }
-
-#B1 {
-    grid-area: a;
+  font-family: almaq rough;
+  color: blue;
+  size: 2em;
+  text-align: center;
+  margin-top: 0;
 }
 
 #logo {
 
-    grid-area: b;
+ display: inline-block;
+ padding-top: 0;
+  
+}
+
+
+body {
+  font-family: 'Anton', sans-serif;
+  color: blue;
+  background-color: black;
+  margin: 0.5em;
+}
+
+
+
+ul {
+
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+
+  display: inline-block;
+}
+
+li a {
+    
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+
+  background-color: #111;
+}
+
+#reklame {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:blue;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#mitgrid { 
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+#tekst1 {
+  font-size: 1.5em;
+}
+
+#logo ul li {
+  list-style: none;
+}
+
+#logo ul li img {
+  height: 42px;
+  width: 42px;
 }
 
 #logotekst {
-
-    grid-area: c;
+  font-size: 2em;
 }
 
 #portrait {
-    grid-area: d;
-}
 
-#portraittekst {
-    grid-area: ;e
 }
 
 #dyr {
-    
-    grid-area: f;
 }
 
 #dyrtekst {
 
-    grid-area: g;
 }
+
+@media screen and (min-width: 700px) { 
+header {
+  font-size: 4em;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:blue;
+  font-size: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+ 
+}/* tablet liggende */
+
+@media screen and (min-width: 400px){
+
+  
+} /* tablet stående*/
