@@ -36,7 +36,13 @@ body {
   margin: 0.5em;
 }
 
+.navbar {
 
+  font-family: 'Anton';
+  color: blue;
+  font-size: 2em;
+
+}
 
 ul {
 
