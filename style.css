@@ -3,18 +3,29 @@ h1 {
 
   font-family: almaq rough;
   color: blue;
-  size: 2em;
+  size: 4em;
   text-align: center;
   margin-top: 0;
 }
 
-#logo {
+#hgrid {
+  display: grid;
+  grid-template-rows: 4fr;
+  grid-template-areas: 
+  "h1 h1 h1 logo";
 
- display: inline-block;
- padding-top: 0;
-  
+#h1 { 
+
+  grid-area: h1;
+
 }
 
+#logo {
+
+  grid-area: logo;
+}
+
+}
 
 body {
   font-family: 'Anton', sans-serif;
