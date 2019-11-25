@@ -1,0 +1,208 @@
+
+h1 {
+
+  font-family: almaq rough;
+  color:blue(233, 233, 247);
+  size: 4em;
+  margin-top: 0;
+  margin-left: 200px;
+}
+
+
+#hgrid {
+  display: grid;
+  grid-template-rows: 3fr;
+  grid-template-areas: 
+  "h1 logo";
+
+#h1 { 
+
+  grid-area: h1;
+
+}
+
+#logo {
+
+  grid-area: logo;
+
+}
+
+}
+
+body {
+  font-family: 'Anton', sans-serif;
+  color: blue;
+  background-color: black;
+  margin: 0.5em;
+}
+
+.navbar {
+
+  font-family: 'Anton';
+  color: blue;
+  font-size: 2em;
+
+}
+
+#tekstbox {
+  background-color: lightgrey;
+  width: 90%;
+  border: 15px solid Blue;
+  padding: 20px;
+
+/* Den virker da */  
+}
+
+ul {
+
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+
+  display: inline-block;
+}
+
+li a {
+    
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+
+  background-color: #111;
+}
+
+#reklame {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:blue;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#mitgrid { 
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+#tekst1 {
+  font-size: 1.5em;
+}
+
+#logo ul li {
+  list-style: none;
+}
+
+#logo ul li img {
+  height: 42px;
+  width: 42px;
+}
+
+#logotekst {
+  font-size: 2em;
+}
+
+#portrait {
+
+}
+
+#dyr {
+}
+
+#dyrtekst {
+
+}
+
+@media screen and (min-width: 700px) { 
+header {
+  font-size: 4em;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:blue;
+  font-size: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+ 
+}/* tablet liggende */
+
+@media screen and (min-width: 400px){
+
+  
+} /* tablet stående*/
