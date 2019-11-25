@@ -2,16 +2,16 @@
 h1 {
 
   font-family: almaq rough;
-  color: blue;
+  color:blue(233, 233, 247);
   size: 4em;
   margin-top: 0;
-  margin-left: 90px;
+  margin-left: 200px;
 }
 
 
 #hgrid {
   display: grid;
-  grid-template-rows: 2fr;
+  grid-template-rows: 3fr;
   grid-template-areas: 
   "h1 logo";
 
