@@ -3,8 +3,10 @@ h1 {
 
   font-family: Anton;
   color:blue(233, 233, 247);
-  size: 4em;
+  size: 3em;
   margin-top: 0;
+  text-align: center;
+  
 }
 
 body {
