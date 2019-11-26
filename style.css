@@ -1,32 +1,11 @@
 
 h1 {
 
-  font-family: almaq rough;
+  font-family: Anton;
   color:blue(233, 233, 247);
   size: 4em;
   margin-top: 0;
-  margin-left: 200px;
-}
-
-
-#hgrid {
-  display: grid;
-  grid-template-rows: 3fr;
-  grid-template-areas: 
-  "h1 logo";
-
-#h1 { 
-
-  grid-area: h1;
-
-}
-
-#logo {
-
-  grid-area: logo;
-
-}
-
+  grid-area: 
 }
 
 body {
@@ -34,51 +13,6 @@ body {
   color: blue;
   background-color: black;
   margin: 0.5em;
-}
-
-.navbar {
-
-  font-family: 'Anton';
-  color: blue;
-  font-size: 2em;
-
-}
-
-#tekstbox {
-  background-color: lightgrey;
-  width: 90%;
-  border: 15px solid Blue;
-  padding: 20px;
-
-/* Den virker da og lidt mere kommentar spor her også */  
-}
-
-ul {
-
-  list-style-type: none; 
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000;
-}
-
-li {
-
-  display: inline-block;
-}
-
-li a {
-    
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-
-  background-color: #111;
 }
 
 #reklame {
@@ -114,7 +48,7 @@ li a:hover {
 }
 
 .text {
-  color:blue;
+  color:rgb(255, 255, 255);
   font-size: 17px;
   position: absolute;
   top: 50%;
@@ -125,35 +59,47 @@ li a:hover {
 
 #mitgrid { 
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "a a"
+  "b b"
+  "c d"
+  "e e"
+  "f f"
+  "g g";
   }
 
 #tekst1 {
   font-size: 1.5em;
+  grid-area: b;
 }
 
 #logo ul li {
   list-style: none;
+  grid-area: c;
 }
 
 #logo ul li img {
   height: 42px;
   width: 42px;
+
 }
 
 #logotekst {
   font-size: 2em;
+  grid-area: d;
 }
 
 #portrait {
-
+  grid-area: e;
 }
 
 #dyr {
+  grid-area: f;
 }
 
 #dyrtekst {
-
+  grid-area: g;
 }
 
 @media screen and (min-width: 700px) { 
@@ -190,7 +136,7 @@ header {
 }
 
 .text {
-  color:blue;
+  color:rgb(255, 255, 255);
   font-size: 4em;
   position: absolute;
   top: 50%;
@@ -203,6 +149,8 @@ header {
 }/* tablet liggende */
 
 @media screen and (min-width: 400px){
+header { 
+  font-size: 4em; }
 
   
 } /* tablet stående*/
