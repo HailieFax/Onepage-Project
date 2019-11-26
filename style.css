@@ -161,15 +161,45 @@ header {
  
 }/* tablet liggende */
 
-@media screen and (min-width: 400px){
-  header { 
-    font-size: 4em;
-    }
-
-  h1, h2 {
-  
+@media screen and (max-width: 400px){
+ /*header { 
     font-size: 2em;
+    }*/
+ 
+  h1, h2 {
+
+  width: auto;    
 
   }
+
+  #logo2 {
+    
+    width: 100%;
+
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .text {
+      color:rgb(255, 255, 255);
+      font-size: 0.7em;
+      position: bottom;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+    }
   
 /* tablet stående*/
