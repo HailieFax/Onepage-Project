@@ -34,23 +34,28 @@ h2 {
 }
 
 #reklame {
-
   height: 50%;
   border-radius: 30px;
 
 }
 
 #reklame2 {
-
   width: 100%;
   border-radius: 20px;
 
 }
 
 #portrait2 {
-
-  width: 40%;
+  width: 35%;
   margin-left: 30%;
+}
+
+#storflaske {
+
+  width: 55%;
+  margin-left: 25%;
+  
+
 }
 
 #mitgrid { 
@@ -69,6 +74,7 @@ h2 {
   grid-area: b;
   text-align: left;
 }
+
 #logo {
   grid-area: c;
   text-align: right;
@@ -140,21 +146,38 @@ footer p {
 
 
 /*Tablet liggende/desktop*/
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 1080px) { 
 
 #mitgrid { 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-  "b b b b b b b "
-  "c c c d d d d"
-  "e e e e e e e"
-  "f f f f f f f"
-  "g g g g g g g";
+  "b b b b b b b b b b b"
+  "c c c c c d d d d d d"
+  "e e e e e e e e e e e"
+  "f f f f f f f f f f f"
+  "g g g g g g g g g g g";
 }
 
+#portrait2 {
+  
+}
 h1 {
-  font-size: 4em;
+  font-size: 3.4em;
+}
+#logo {
+  margin-bottom: 25%;
+}
+
+#logo ul li img {
+  height: 60px;
+  width: 60px;
+}
+
+#logotekst {
+  font-size: 1.2em;
+  grid-area: d;
+  margin-bottom: 25%;
 }
 
 .container {
@@ -188,13 +211,13 @@ h1 {
 
 .text {
   position: absolute;
-  font-size: 4em;
+  font-size: 3em;
   color:rgba(255, 245, 245, 0.877);
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 1300px;
+  width: 1000px;
 }
 
 #tekst1{
@@ -204,16 +227,21 @@ h1 {
 h2 {
   padding-top: 15%;
 }
+
 #tekst2{
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1.25em;
+  padding-bottom: 50px;
 }
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
 
+h1 {
+  
+}
 }
 
 
