@@ -25,45 +25,6 @@ h2 {
   width: 100%;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: .5s ease;
-  background-color: transparent;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color:rgba(255, 255, 255, 0.432);
-  font-size: 22px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 300px;
-}
-
 #mitgrid { 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -161,15 +122,13 @@ header {
  
 }/* tablet liggende */
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 350px){
   header { 
-    font-size: 4em;
+    font-size: 0.9em;
     }
 
-  h1, h2 {
-  
-    font-size: 2em;
 
-  }
+
+ 
   
 /* tablet stående*/
