@@ -3,17 +3,12 @@ h1 {
 
   font-family: Anton;
   color: blue(233, 233, 247);
-  font-size: 1.22em;
+  font-size: 4em;
   margin-top: 0;
   text-align: center;
 
 }
 
-#header {
-
-  width: 100%;
-
-}
 
 header {
   color: blue(233, 233, 247);  
@@ -24,7 +19,8 @@ body {
   font-size: 1.5em;
   background-color: rgb(20, 20, 20);
   color: rgb(17, 111, 124); 
-  margin: 0;
+  margin: 5px;
+
 }
 
 #logo2 {
@@ -71,8 +67,9 @@ h2 {
 }
 
 #tekst1 {
-  font-size: 1.12em;
+  font-size: 1em;
   grid-area: b;
+  text-align: left;
 }
 #logo {
   grid-area: c;
@@ -118,11 +115,31 @@ footer p {
   padding: 20px;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+}
+  
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  
+
+.text {
+  color:rgb(255, 255, 255);
+  font-size: 0.77em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
 /*Tablet liggende/desktop*/
 @media screen and (min-width: 700px) { 
-header {
-  color: ;
-}
 
 .container {
   position: relative;
@@ -161,57 +178,20 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
   width: 1300px;
 }
 
 #tekst1{
   padding: 15%;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
+
 }
 
 @media screen and (max-width: 400px){
-/* header { 
-    font-size: 2em;
-    }*/
- 
-  h1, h2 {
 
-  width: auto;    
+}
 
-  }
 
-/*#logo2 {
-
-  width: 200px; 
-  margin-left: 25%;  */
-
-  } 
-
-  .container {
-    position: relative;
-    width: 100%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-
-  .text {
-      color:rgb(255, 255, 255);
-      font-size: 0.7em;
-      position: absolute;
-      top: 85%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-      width: 100%;
-    }
-  
 /* tablet stående*/
