@@ -1,63 +1,4 @@
 
-h1 {
-
-  font-family: Anton;
-  color: blue(233, 233, 247);
-  font-size: 1.22em;
-  margin-top: 0;
-  text-align: center;
-
-}
-
-
-header {
-  color: blue(233, 233, 247);  
-}
-
-body {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.5em;
-  background-color: rgb(20, 20, 20);
-  color: rgb(17, 111, 124); 
-  margin: 5px;
-
-}
-
-#logo2 {
-  width: 100px;
-  margin-top: 20px;
-  }
-
-h2 {
-  size: 2em;
-  text-align: center;
-}
-
-#reklame {
-  height: 50%;
-  border-radius: 30px;
-
-}
-
-#reklame2 {
-  width: 100%;
-  border-radius: 20px;
-
-}
-
-#portrait2 {
-  width: 35%;
-  margin-left: 30%;
-}
-
-#storflaske {
-
-  width: 55%;
-  margin-left: 25%;
-  
-
-}
-
 #mitgrid { 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -69,56 +10,27 @@ h2 {
   "g g g g g g";
 }
 
-#tekst1 {
-  font-size: 1em;
-  grid-area: b;
-  text-align: left;
-}
-
-#logo {
-  grid-area: c;
-  text-align: right;
-  margin-right: 10px;
-}
-
-#logo ul li {
-  list-style: none;
-}
-
-#logo ul li img {
-  height: 42px;
-  width: 42px;
-}
-
-#logotekst {
-  font-size: 0.9em;
-  grid-area: d;
-}
-
-#portrait {
-  grid-area: e;
-}
-
-#dyr {
-  grid-area: f;
-}
-
-#dyrtekst {
-  grid-area: g;
-  text-align: center;
+body {
+  font-family: 'Anton', sans-serif;
   font-size: 1.5em;
+  background-color: rgb(20, 20, 20);
+  color: rgb(17, 111, 124); 
+  margin: 5px;
 }
 
-footer {
-  font-size: small;
-  color: rgb(107, 104, 104);
+h1 {
+  font-family: Anton;
+  color: blue(233, 233, 247);
+  font-size: 1.22em;
+  margin-top: 5px;
   text-align: center;
-  background-color: black;
+  padding-bottom: 20px;
+
 }
 
-footer p {
-  margin: 0;
-  padding: 20px;
+#reklame {
+  height: 50%;
+  border-radius: 20px;
 }
 
 .container {
@@ -143,13 +55,94 @@ footer p {
   width: 100%;
 }
 
+#tekst1 {
+  font-size: 0.84em;
+  grid-area: b;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#logo {
+  grid-area: c;
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 40px;
+}
+
+#logo ul li {
+  list-style: none;
+}
+
+#logo ul li img {
+  height: 42px;
+  width: 42px;
+}
+
+#logotekst {
+  font-size: 0.9em;
+  grid-area: d;
+  padding-top: 40px;
+}
+
+#logo2 {
+  width: 100px;
+  margin-top: 10px;
+}
+
+#portrait {
+  grid-area: e;
+}
+
+#portrait2 {
+  width: 90%;
+}
+
+h2 {
+  size: 2em;
+  text-align: center;
+  padding-top: 75px;
+}
+
+#tekst2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 110px;
+}
+
+#storflaske {
+  width: 110%;
+  padding-bottom: 38px;
+}
+
+#dyr {
+  grid-area: f;
+}
+
+#dyrtekst {
+  grid-area: g;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: small;
+  color: rgb(107, 104, 104);
+  text-align: center;
+  background-color: black;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+}
 
 /* tablet stående*/
 @media screen and (min-width: 600px){
 
 h1 {
   font-size: 1.8em;
-  padding-bottom: 10%;
 }
 
 .text {
@@ -164,10 +157,10 @@ h1 {
 }
 
 #tekst1 {
+  font-size: 1.1em;
   padding-left: 9%;
   padding-right: 9%;
   padding-bottom: 20%;
-  padding-top: 10%;
 }
 
 h2{
@@ -178,6 +171,7 @@ h2{
   padding-left: 9%;
   padding-right: 9%;
   padding-bottom: 21%;
+  font-size: 1.1em;
 }
 
 #logo {
@@ -193,6 +187,11 @@ h2{
   font-size: 1.2em;
   grid-area: d;
   margin-bottom: 30%;
+}
+
+#portrait {
+  width: 90%;
+  margin: 50px;
 }
 #storflaske {
   width: 100%;
@@ -220,6 +219,11 @@ h2{
 
 h1 {
   font-size: 3.4em;
+}
+#reklame {
+  height: 50%;
+  border-radius: 60px;
+
 }
 #logo {
   margin-bottom: 25%;
@@ -280,16 +284,28 @@ h1 {
   padding: 15%;
   font-size: 1.25em;
 }
+
 h2 {
   padding-top: 20%;
+}
+
+#portrait2 {
+  width: 35%;
+  margin-left: 30%;
 }
 
 #tekst2{
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1.25em;
-  padding-bottom: 150px;
+  padding-bottom: 35%;
 }
+
+#storflaske {
+
+  width: 70%;
+  margin-left: 15%;
+  
 
 }
 
