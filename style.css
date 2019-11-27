@@ -1,24 +1,25 @@
 
 h1 {
-
   font-family: Anton;
-  color:blue(233, 233, 247);
+  color: blue(233, 233, 247);
   size: 3em;
   margin-top: 0;
   text-align: center;
-  
+}
+
+header {
+  color: blue(233, 233, 247);  
 }
 
 body {
   font-family: 'Anton', sans-serif;
   font-size: 1.5em;
-  color: blue;
-  background-color: black;
+  background-color: rgb(20, 20, 20);
   margin: 0.5em;
+  color: rgb(17, 111, 124); ;
 }
 
 h2 {
-
   size: 3em;
   text-align: center;
 }
@@ -83,7 +84,7 @@ h2 {
 }
 
 #tekst1 {
-  font-size: 1.5em;
+  font-size: 1.12em;
   grid-area: b;
 }
 #logo {
@@ -116,6 +117,13 @@ h2 {
   grid-area: g;
 }
 
+footer {
+  font-size: small;
+  color: rgb(107, 104, 104);
+  text-align: right;
+}
+
+/*Tablet liggende/desktop*/
 @media screen and (min-width: 700px) { 
 header {
   font-size: 4em;
@@ -130,6 +138,7 @@ header {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 50px;
 }
 
 .overlay {
@@ -150,7 +159,7 @@ header {
 }
 
 .text {
-  color:rgb(255, 255, 255);
+  color:rgba(255, 245, 245, 0.877);
   font-size: 4em;
   position: absolute;
   top: 50%;
@@ -160,8 +169,12 @@ header {
   text-align: center;
   width: 1300px;
 }
- 
-}/* tablet liggende */
+
+#tekst1{
+  padding: 15%;
+  font-size: 1.5em;
+}
+}
 
 @media screen and (max-width: 400px){
  /*header { 
