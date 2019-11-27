@@ -3,7 +3,7 @@ h1 {
 
   font-family: Anton;
   color: blue(233, 233, 247);
-  font-size: 4em;
+  font-size: 1.22em;
   margin-top: 0;
   text-align: center;
 
@@ -24,10 +24,8 @@ body {
 }
 
 #logo2 {
-
-  width: 50%;
-  margin-left: 25%;
-
+  width: 100px;
+  margin-top: 20px;
   }
 
 h2 {
@@ -38,7 +36,7 @@ h2 {
 #reklame {
 
   height: 50%;
-  border-radius: 20px;
+  border-radius: 30px;
 
 }
 
@@ -57,13 +55,13 @@ h2 {
 
 #mitgrid { 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-  "b b b b"
-  "c d d d"
-  "e e e e"
-  "f f f f"
-  "g g g g";
+  "b b b b b b"
+  "c c d d d d"
+  "e e e e e e"
+  "f f f f f f"
+  "g g g g g g";
 }
 
 #tekst1 {
@@ -73,6 +71,8 @@ h2 {
 }
 #logo {
   grid-area: c;
+  text-align: right;
+  margin-right: 10px;
 }
 
 #logo ul li {
@@ -100,7 +100,7 @@ h2 {
 #dyrtekst {
   grid-area: g;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 footer {
@@ -131,27 +131,42 @@ footer p {
   color:rgb(255, 255, 255);
   font-size: 0.77em;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
 }
 
+
 /*Tablet liggende/desktop*/
 @media screen and (min-width: 700px) { 
+
+#mitgrid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "b b b b b b b "
+  "c c c d d d d"
+  "e e e e e e e"
+  "f f f f f f f"
+  "g g g g g g g";
+}
+
+h1 {
+  font-size: 4em;
+}
 
 .container {
   position: relative;
   width: 100%;
 }
 
-
 .image {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .overlay {
@@ -175,7 +190,7 @@ footer p {
   position: absolute;
   font-size: 4em;
   color:rgba(255, 245, 245, 0.877);
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -184,6 +199,14 @@ footer p {
 
 #tekst1{
   padding: 15%;
+  font-size: 1.25em;
+}
+h2 {
+  padding-top: 15%;
+}
+#tekst2{
+  padding-left: 15%;
+  padding-right: 15%;
   font-size: 1.25em;
 }
 
