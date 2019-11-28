@@ -1,11 +1,10 @@
 
 #mitgrid { 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   grid-template-areas: 
   "b b b b b b"
   "c c d d d d"
-  "e e e e e e"
   "f f f f f f"
   "g g g g g g";
 }
@@ -25,7 +24,6 @@ h1 {
   margin-top: 5px;
   text-align: center;
   padding-bottom: 20px;
-
 }
 
 #reklame {
@@ -89,10 +87,6 @@ h1 {
 #logo2 {
   width: 100px;
   margin-top: 10px;
-}
-
-#portrait {
-  grid-area: e;
 }
 
 #portrait2 {
@@ -208,7 +202,7 @@ h2{
 
 #mitgrid { 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(11, 1fr);
   grid-template-areas: 
   "b b b b b b b b b b b"
   "c c c c c d d d d d d"
@@ -217,9 +211,38 @@ h2{
   "g g g g g g g g g g g";
 }
 
+#mitgrid2 {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "h2 portrait2"
+  "tekst2 portrait2";
+}
+
+#h2 {
+
+  grid-area: h2;
+  
+}
+
+#portrait2 {
+  grid-area: portrait2;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 10%;
+}
+
+#tekst2 {
+  grid-area: tekst2;
+  padding-bottom: 150px;
+
+}
+
 h1 {
   font-size: 3.4em;
 }
+
 #reklame {
   height: 50%;
   border-radius: 60px;
@@ -287,15 +310,11 @@ h1 {
 
 h2 {
   padding-top: 20%;
-}
-
-#portrait2 {
-  width: 35%;
-  margin-left: 30%;
+  padding-left: 2%;
 }
 
 #tekst2{
-  padding-left: 15%;
+  padding-left: 7%;
   padding-right: 15%;
   font-size: 1.25em;
   padding-bottom: 35%;
@@ -303,8 +322,8 @@ h2 {
 
 #storflaske {
 
-  width: 70%;
-  margin-left: 15%;
+  width: 900px;
+  margin-left: 300px;
   
 
 }
